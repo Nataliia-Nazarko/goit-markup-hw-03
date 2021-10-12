@@ -67,7 +67,6 @@ img {
 /* Header */
 .header {
   display: flex;
-  background-color: orange;
   align-items: center;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -123,7 +122,6 @@ img {
 
 .site-nav {
   display: flex;
-  background-color: rgb(0, 255, 221);
   width: 294px;
   justify-content: space-between;
   margin-left: 93px;
@@ -136,7 +134,6 @@ img {
 
 .kontakt-header {
   display: flex;
-  background-color: rgb(0, 255, 221);
   width: 300px;
   justify-content: space-between;
   margin-left: 331px;
@@ -147,9 +144,7 @@ img {
   background-color: #2f303a;
   width: 1600px;
   padding: 200px 452px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 
 .hero-title {
@@ -160,7 +155,6 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -172,6 +166,7 @@ img {
   width: 201px;
   padding: 10px 32px;
   border: 0;
+  margin: 0 auto;
 
   font-family: var(--main-font);
   font-style: normal;
@@ -184,8 +179,6 @@ img {
 
   cursor: pointer;
 }
-
-
 
 .button-hero:hover,
 .button-hero:focus {
@@ -204,24 +197,54 @@ img {
 }
 
 /* Benefits */
+.benefits,
+.product,
+.team-employees {
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefits-item {
+  width: 270px;
+}
+
 .benefit {
   font-weight: bold;
   line-height: 16px;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 /* Produkts */
-.produkts,
+.products-studio {
+  padding-top: 0;
+}
+
+.products,
 .team {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 /* Team */
 .team-studio {
   background: #f5f4fa;
+}
+
+.team-studio,
+.footer {
+  width: 1600px;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+
+.team-employee {
+  text-align: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .employee-description,
@@ -232,6 +255,12 @@ img {
 
 .employee {
   font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.employee-description {
+  margin-bottom: 30px;
 }
 
 /* Portfolio */
@@ -272,6 +301,7 @@ img {
 /* Footer */
 .footer {
   background-color: #2f303a;
+  padding: 60px 215px;
 }
 
 .logo-footer,
@@ -289,4 +319,10 @@ img {
 
 .kontakt-footer {
   font-style: normal;
+  margin-top: 20px;
+}
+
+.email {
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
