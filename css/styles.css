@@ -59,6 +59,7 @@ ul {
 
 img {
   border: 0;
+  display: block;
 }
 
 /* Header */
