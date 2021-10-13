@@ -63,14 +63,16 @@ img {
 }
 
 /* Header */
+
 .header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header-part {
   display: flex;
   align-items: center;
   padding-top: 25px;
   padding-bottom: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom: 1px solid #ececec;
 }
 
 /* Logo */
@@ -203,7 +205,8 @@ img {
   justify-content: space-between;
 }
 
-.benefit-section {
+.benefit-section,
+.portfolio-section {
   padding-top: 60px;
 }
 
@@ -261,10 +264,6 @@ img {
 }
 
 /* Filter Portfolio */
-.portfolio-section {
-  padding-top: 60px;
-}
-
 .filter-buttons {
   display: flex;
   justify-content: space-between;

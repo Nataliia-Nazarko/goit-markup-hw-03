@@ -16,40 +16,43 @@
 </head>
 <body>
     <!--Шапка сайта-->
-    <header class="header container">
-        <a href="/" class="logo">Web<span class="logo-header">Studio</span></a>
-        
-        <!-- Навигация на другие страницы -->
-        <nav>
-            <ul class="site-nav">
-                <li><a href="./index.html" class="link">Студия</a></li>
-                <li><a href="" class="link current">Портфолио</a></li>
-                <li><a href="" class="link">Контакты</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div  class="header-part container">
+            <a href="/" class="logo">Web<span class="logo-header">Studio</span></a>
+            
+            <!-- Навигация на другие страницы -->
+            <nav>
+                <ul class="site-nav">
+                    <li><a href="./index.html" class="link">Студия</a></li>
+                    <li><a href="" class="link current">Портфолио</a></li>
+                    <li><a href="" class="link">Контакты</a></li>
+                </ul>
+            </nav>
 
-        <ul class="kontakt-header">
-            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-        </ul>
+            <ul class="kontakt-header">
+                <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
     </header>
         
     <!--Основная часть-->
     <main>
-        <section class="portfolio-section container section">
-            <h1 class="none-title">Наши работы</h1>
+        <section>
+            <div class="portfolio-section container section">
+                <h1 class="none-title">Наши работы</h1>
 
-                <!--Фильтр портфолио-->
-                <ul class="filter-buttons">
-                    <li><button type="button" class="fiter-button">Все</button></li>
-                    <li><button type="button" class="fiter-button">Веб-сайты</button></li>
-                    <li><button type="button" class="fiter-button">Приложения</button></li>
-                    <li><button type="button" class="fiter-button">Дизайн</button></li>
-                    <li><button type="button" class="fiter-button">Маркетинг</button></li>
-                </ul>
-        
+                    <!--Фильтр портфолио-->
+                    <ul class="filter-buttons">
+                        <li><button type="button" class="fiter-button">Все</button></li>
+                        <li><button type="button" class="fiter-button">Веб-сайты</button></li>
+                        <li><button type="button" class="fiter-button">Приложения</button></li>
+                        <li><button type="button" class="fiter-button">Дизайн</button></li>
+                        <li><button type="button" class="fiter-button">Маркетинг</button></li>
+                    </ul>
+            
 
-                <!--Портфолио-->
+                    <!--Портфолио-->
                     <ul class="portfolio">
                         <li class="portfolio-example">
                             <img src="./images/website-technokryak.jpg" alt="Веб-сайт Технокряк" width="370" height="294"/>
@@ -123,20 +126,23 @@
                             </div>
                         </li>
                     </ul>
+            </div>
         </section>
     </main>
 
     <!--Подвал сайта-->
-    <footer class="footer container">
-        <a href="/" class="logo">Web<span class="logo-footer">Studio</span></a>
-    
-        <address class="address">
-            <ul class="kontakt-footer">
-                <li>г. Киев, пр-т Леси Украинки, 26</li>
-                <li class="email"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+    <footer class="footer">
+        <div class="container">
+            <a href="/" class="logo">Web<span class="logo-footer">Studio</span></a>
+        
+            <address class="address">
+                <ul class="kontakt-footer">
+                    <li>г. Киев, пр-т Леси Украинки, 26</li>
+                    <li class="email"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 </html>
